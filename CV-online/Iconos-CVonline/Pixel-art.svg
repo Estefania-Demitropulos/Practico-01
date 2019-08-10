@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <g id="Grupo_38" data-name="Grupo 38" transform="translate(-885 -2747)">
+    <circle id="Elipse_23" data-name="Elipse 23" cx="75" cy="75" r="75" transform="translate(885 2747)" fill="#ff7272"/>
+    <g id="invaders" transform="translate(914 2733.8)">
+      <rect id="Rectángulo_14" data-name="Rectángulo 14" width="9.252" height="9.25" transform="translate(64.748 51.2)" fill="#1f3b63"/>
+      <rect id="Rectángulo_15" data-name="Rectángulo 15" width="9.25" height="9.25" transform="translate(18.498 51.2)" fill="#1f3b63"/>
+      <rect id="Rectángulo_16" data-name="Rectángulo 16" width="9.25" height="9.25" transform="translate(18.498 115.95)" fill="#1f3b63"/>
+      <rect id="Rectángulo_17" data-name="Rectángulo 17" width="9.252" height="9.25" transform="translate(64.748 115.95)" fill="#1f3b63"/>
+      <path id="Trazado_46" data-name="Trazado 46" d="M92.5,139.4v9.25H83.25V139.4H74v9.25H64.748V157.9H55.5v-9.252H37V157.9h-9.25v-9.252H18.5V139.4H9.25v9.25H0v-18.5H9.25V120.9H18.5v-9.25h9.25V102.4H37v9.25H55.5V102.4h9.25v9.25H74v9.25h9.25v9.248H92.5Zm-27.752-9.25V120.9H55.5v9.248Zm-27.75,0V120.9h-9.25v9.248Z" transform="translate(0 -41.95)" fill="#1f3b63"/>
+    </g>
+  </g>
+</svg>

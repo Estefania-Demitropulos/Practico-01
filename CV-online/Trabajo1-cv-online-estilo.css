@@ -1,0 +1,298 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    color: #707070;
+    font-family: 'Raleway', sans-serif;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #707070;
+}
+
+.header {
+    height: 190px;
+    background-color: #FCFCFC;
+    position: sticky;
+    top: 0px;
+    z-index: 10000;
+}
+
+.header__contenedor-contact {
+    background-color: #F6F6F6;
+    height: 64px;
+    padding: 14px 0px;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact {
+    display: inline-block;
+    text-align: center;
+}
+
+.contact__icon {
+    height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact__text {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 35px;
+
+}
+
+.header__contenedor-principal {
+    position: relative;
+    height: 132px;
+}
+
+.header__contenedor-avatar {
+    height: 116px;
+    width: 116px;
+    border-radius: 50%;
+    background-image: linear-gradient(to top right, #018ABE, #FF7272);
+    position: absolute;
+    right: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header__contenedor-avatar--avatar {
+    height: 108px;
+    width: 108px;
+    border-radius: 50%;
+    background-color: #FCFCFC;
+    margin: 4px;
+}
+
+.header__contenedor-presentacion--nombre {
+    font-family: 'Montserrat', sans-serif;
+    color: #018ABE;
+    font-weight: bold;
+}
+
+.header__contenedor-presentacion {
+    padding: 22px 135px;
+    background-color: #FCFCFC;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #FCFCFC;
+    padding: 12px 0px;
+}
+
+.nav-link__button {
+    height: 25px;
+    width: 25px;
+    background-color: #FCFCFC;
+    border-radius: 50%;
+    border: solid 4px #FF7272;
+}
+
+.header__nav-link {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+
+.nav-link__button, .nav-link__text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+section::before {
+    display: block; 
+    content: " "; 
+    margin-top: -190px; 
+    height: 190px; 
+    visibility: hidden; 
+    pointer-events: none;
+}
+
+.quiensoy {
+    height: 317px;
+    position: relative
+}
+
+.quiensoy__encabezado {
+    position: absolute;
+    top: 45px;
+    left: 135px;
+}
+
+.quiensoy__texto {
+    position: absolute;
+    width: 468px;
+    right: 200px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 2;
+}
+
+.quiensoy__datospersonales {
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+    width: 400px;
+    position: absolute;
+    left: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.datospersonales__item::before {
+    content: "";
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: #FF7272;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px; 
+}
+
+.formacion {
+    height: 691px;
+    position: relative;
+    background-color: #F4F6F9; 
+}
+
+.formacion__encabezado {
+    position: absolute;
+    top: 45px;
+    left: 135px;
+}
+
+.formacion__lista {
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+    width: 435px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.formacion__lista__item::before {
+    content: "";
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: #018ABE;
+    display: inline-block;
+    margin: 5px;
+    vertical-align: -6px;
+}
+
+.formacion__titulo {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2;
+    color: #707070;
+    display: inline-block;
+}
+
+.formacion__status {
+    font-size: 14px;
+    line-height: 2;
+    margin-left: 30px;
+}
+
+.formacion__lugar {
+    font-size: 14px;
+    line-height: 2;
+    margin-left: 30px;
+}
+
+.experiencia {
+    height: 296px;
+    position: relative;
+}
+
+.experiencia__encabezado {
+    position: absolute;
+    top: 45px;
+    left: 135px;
+}
+
+.experiencia__profesion {
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+    width: 374px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.experiencia__profesion-item {
+    line-height: 2;
+}
+
+.experiencia__profesion-contenido {
+    line-height: 2;
+}
+
+.portfolio {
+    height: 516px;
+    background-color: #FFF2E6;
+    position: relative;
+    padding: 105px;
+}
+
+.portfolio__encabezado {
+    position: absolute;
+    top: 45px;
+    left: 135px;
+}
+
+.portfolio__lista {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1081px;
+    height: 354px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin: auto;
+}
+
+.portfolio__lista-item {
+    text-align: center;
+    width: 180px;
+}
+
+.img-portfolio {
+    display: inline-block;
+    text-align: center;
+    height: 107px;
+}
+
+.img-portfolio__titulo {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 3;
+}
+
+.linea-decorativa {
+    height: 800px;
+    width: 3px;
+    background-color: #BFC4C5;
+    position: absolute;
+    right: 200px;
+    top: 680px;
+}
